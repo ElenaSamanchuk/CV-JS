@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #323232;
+  width: 100%;
+  height: 50px;
+  font-family: "Fruktur", cursive;
+  position: fixed;
+  z-index: 1;
+}
+.main-menu {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.menu-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+  margin: 0 150px;
+}
+
+.menu-item:hover {
+  color: #7ecfbf;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.portfolio img {
+  padding: 0 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.portfolio img:hover {
+  transform: scale(0.6) rotate(120deg);
+}
+
+.row_1 {
+  position: relative;
+  left: -300px;
+}
+
+.row_3 {
+  position: relative;
+  left: 300px;
+  width: 80%;
+}
+
+.about {
+  width: 100%;
+  background-color: #7ecfbf;
+  padding: 12px 0 15px;
+}
+
+.about-container {
+  width: 780px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border-left: 1px solid #219d84;
+  border-right: 1px solid #219d84;
+}
+
+.about-myphoto {
+  float: left;
+  margin-right: 30px;
+}
+
+.about-myname {
+  padding: 0;
+  margin: -5px;
+  color: #d2f1ec;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.about-career {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #20816d;
+  padding: 0;
+  margin: 0;
+}
+
+.about-text {
+  margin: 0;
+  text-align: justify;
+  color: #d7fcf5;
+  line-height: 1.58;
+  padding-top: 15px;
+}
+
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #323232;
+  padding: 12px 0;
+}
+
+.contact-container {
+  width: 780px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  border-top: 1px solid rgb(180, 180, 180);
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
+
+.contact-title {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #e0e0e0;
+}
+
+.contact-subtitle {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #bebebe;
+}
+
+.contact-form-container {
+  width: 100%;
+  font-size: 12px;
+}
+
+.contact-form {
+  color: #bebebe;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 0;
+  color: inherit;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  box-sizing: border-box;
+  background-color: #454545;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin-top: 15px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #20816d;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.contact-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #454545;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  resize: none;
+  height: 140px;
+}
+
+.contact-form input[type="submit"]:hover {
+    transform: scale(1.05);
+    color: rgb(214, 213, 213);
+    background-color: #73948d;
+    font-weight: 700;
+
+}
+
+.copyright {
+    background-color: #222222;
+    padding: 15px;
+    text-align: center;
+}
+
+.copyright-text {
+    width: 980px;
+    margin: 0 auto;
+    color: #868686;
+}

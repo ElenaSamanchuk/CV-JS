@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="main-menu">
+            <a href="#portfolio" class="menu-item">portfolio</a>
+            <a href="#about" class="menu-item">about</a>
+            <a href="#copyright" class="menu-item">blog</a>
+            <a href="#contact" class="menu-item">get in touch</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="image_block">
+                <div class="row_1">
+                    <img src="img/1.jpg" alt="1">
+                    <img src="img/2.jpg" alt="2">
+                    <img src="img/3.jpg" alt="3">
+                </div>
+                <div class="row_2">
+                    <img src="img/4.jpg" alt="4">
+                    <img src="img/5.jpg" alt="5">
+                    <img src="img/6.jpg" alt="6">
+                    <img src="img/7.jpg" alt="7">
+                    <img src="img/8.jpg" alt="8">
+                </div>
+                <div class="row_3">
+                    <img src="img/9.jpg" alt="9">
+                    <img src="img/10.jpg" alt="10">
+                    <img src="img/11.jpg" alt="11">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <article class="about-container">
+                <aside class="about-myphoto">
+                    <img src="img/hexagon.png" alt="hexagon">
+                </aside>
+                <div class="about-right-column">
+                    <header>
+                        <h3 class="about-myname">Smith Anderson</h3>
+                        <p class="about-career">Illustrator & Character Designer</p>
+                    </header>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna.
+                    </p>
+                </div>
+            </article>            
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <header class="contact-header">
+                    <h2 class="contact-title">Get in touch</h2>
+                    <p class="contact-subtitle">
+                        In order to get in touch use the contact form below:
+                    </p>
+                </header>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Name (Required)" required><br>
+                        <input type="email" name="email" placeholder="Email (Required)" required><br>
+                        <input type="text" name="subject" placeholder="Subject"><br>
+                        <textarea rows="10">Write your message</textarea><br>
+                        <input type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="copyright" id="copyright">
+        <p class="copyright-text">
+           &copy Copyright 2021
+        </p>
+    </footer>
+</body>
+</html>

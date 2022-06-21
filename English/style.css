@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main {
+    max-width: 1400px;
+    min-height: 80vh;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(234, 234, 234, 0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc_img {
+    width: 800px;
+    height: 400px;
+
+    background-image: url(img/desc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    filter: blur(1px);    
+
+    border: 3px solid rgba(98, 87, 87, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 0 35px rgba(98, 87, 87, 0.3);
+
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.desc_img:hover {
+    transform: scale(1.5) rotate(5deg);
+    filter: blur(0px);
+    border: 1px solid rgba(98, 87, 87, 0.3);
+    box-shadow: 0 0 100px cadetblue; 
+}
+
+.btns {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 200px;
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 1px solid rgba(155, 155, 155, 0.8);
+    border-radius: 10px;
+    background-color: rgb(233, 249, 246);
+    backdrop-filter: blur(50px);
+    font-size: 28px;
+    color: rgb(64, 89, 90);
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 50px #547c82bc;
+}
+
